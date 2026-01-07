@@ -1,23 +1,22 @@
-import { createGlobalStyle } from "styled-components"
+import { createGlobalStyle, type DefaultTheme } from "styled-components";
 
-export const theme = {
-    colors:{
-        primary: #fff,
-        secondary: #fff,
-        backgroud: #fff,
-        text: #000000,
-
-    },
+// Definindo o tema com tipagem
+export const theme: DefaultTheme = {
+  colors: {
+    primary: "#fff",
+    secondary: "#fff",
+    background: "#fff",
+    text: "#000000",
+  },
 };
 
-
-
+// Tipagem global do styled-components
 export const GlobalStyles = createGlobalStyle`
-* {
+  * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
+  }
 
 
 `
