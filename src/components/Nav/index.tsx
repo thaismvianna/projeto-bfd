@@ -25,7 +25,7 @@ const NavBar = () => {
                                     <Nav.Link href="#">Minha História</Nav.Link>
                                     <Nav.Link href="#">Estampas</Nav.Link>
                                     <Nav.Link href="#">Encomendas</Nav.Link>
-                                    <Nav.Link href="#">
+                                    <Nav.Link href="#" >
                                         <IoCartOutline />
                                     </Nav.Link>
                                 </Nav>
