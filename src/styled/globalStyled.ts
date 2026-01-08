@@ -1,12 +1,13 @@
 import { createGlobalStyle, type DefaultTheme } from "styled-components";
 
 export const theme: DefaultTheme = {
-  colors: {
-    primary: "#9400D3",
-    secondary: "#008B8B",
-    background: "#EE82EE",
-    text: "#000000",
-  },
+colors: {
+  background: "#FAE8FA",
+  text: "#000000",
+  salmao: "#FFCCCC",
+  purple: "#9400D3",
+  alert: "#FFC1FF",
+},
 };
 
 export const GlobalStyles = createGlobalStyle`
