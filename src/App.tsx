@@ -4,6 +4,7 @@ import NavBar from "./components/Nav"
 import CarouselComponent from "./components/Banner"
 import AboutMe from "./components/AboutMe"
 import Contact from "./components/Contact"
+import Footer from "./components/Footer"
 
 
 function App() {
@@ -15,8 +16,7 @@ function App() {
       <CarouselComponent />
       <AboutMe />
       <Contact />
-      <h1>Meu projeto esta funcionando!
-      </h1>
+      <Footer />
     </ThemeProvider>
   )
 }

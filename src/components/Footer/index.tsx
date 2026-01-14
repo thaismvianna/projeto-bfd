@@ -1,9 +1,15 @@
-const Footer = () => {
-    return(
-        <>
-        
-        </>
-    )
-}
+import { FooterContainer } from "./styled";
 
-export default Footer
+const Footer = () => {
+  return (
+    <>
+      <FooterContainer>
+        <p>© Direitos reservados</p>
+      </FooterContainer>
+    </>
+  );
+};
+
+export default Footer;
+
+
