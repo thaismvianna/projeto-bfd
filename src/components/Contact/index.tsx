@@ -3,7 +3,7 @@ import { FaInstagram, FaTwitch, FaStore } from "react-icons/fa";
 
 const Contact = () => {
   return (
-    <Section>
+    <Section id="contato">
       <Container>
         <ContactImage
           src="/image-contact.png"
