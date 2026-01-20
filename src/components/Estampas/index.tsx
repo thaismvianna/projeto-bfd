@@ -22,7 +22,7 @@ const EstamapList = () => {
   );
     
     return (
-    <Container>
+    <Container id="estampas">
       <Title>Estampas</Title>
       <CarouselWrapper>
         <ArrowButton onClick={handlePrev} disabled={startIndex === 0}>

@@ -23,7 +23,7 @@ const NavBar = () => {
                             <Navbar.Collapse id="basic-navbar-nav">
                                 <Nav className="ms-auto">
                                     <Nav.Link href="/">Home</Nav.Link>
-                                    <Nav.Link href="#">Estampas</Nav.Link>
+                                    <Nav.Link href="#estampas">Estampas</Nav.Link>
                                     <Nav.Link href="/encomendas">Encomendas</Nav.Link>
                                     <Nav.Link href="#" >
                                         <IoCartOutline />
