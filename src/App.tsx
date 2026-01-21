@@ -1,8 +1,8 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { ThemeProvider } from "styled-components";
 import { GlobalStyles, theme } from "./styled/globalStyled";
-import EncomendasPage from "./pages/Encomendas";
 import Home from './pages/Home';
+import EncomendasPage from './pages/Encomendas';
 
 function App() {
   return (
