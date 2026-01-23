@@ -14,6 +14,7 @@ function App() {
           <Route path="/" element={<Home />} />
           {/* página de encomendas */}
           <Route path="/encomendas" element={<EncomendasPage />} />
+          <Route path="/produto/:id" element={<ProdutoPage />} />
         </Routes>
       </Router>
     </ThemeProvider>
