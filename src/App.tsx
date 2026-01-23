@@ -3,6 +3,7 @@ import { ThemeProvider } from "styled-components";
 import { GlobalStyles, theme } from "./styled/globalStyled";
 import Home from './pages/Home';
 import EncomendasPage from './pages/Encomendas';
+import ProdutoPage from './pages/ProdutosPage';
 
 function App() {
   return (

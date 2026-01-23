@@ -1,7 +1,8 @@
 export interface Produto {
     id: number;
+    nome: string;
     estampaId: number; // 🔑 ligação com a estampa
-    tipo: TipoProduto;
+    tipo: TipoProduto[];
     preco?: number;
     imagemUrl: string;
 }
