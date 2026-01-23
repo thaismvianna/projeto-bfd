@@ -1,17 +1,13 @@
-import NavBar from "../../components/Nav";
-import Footer from "../../components/Footer";
-import { PageContainer, FormBox, Title, Text, Form, TextArea, Input, Button } from "./styled.tsx";
+import { Button, Form, FormBox, Input, PageContainer, TextArea, Title, Text } from "./styled";
 
-const EncomendasPage = () => {
+const Formulario = () => {
   const handleSubmit = () => {
     /* para testar a função e depois usar o backend*/
     alert('Mensagem enviada!');
   };
 
   return (
-    <>
-      <NavBar />
-              
+    <>        
               <PageContainer>
                 <FormBox>
                   <Title>Encomendas Personalizadas</Title>
@@ -28,10 +24,8 @@ const EncomendasPage = () => {
                   </Form>
                 </FormBox>
               </PageContainer>
-      
-      <Footer />
     </>
   );
 };
 
-export default EncomendasPage;
+export default Formulario;
