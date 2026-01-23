@@ -3,6 +3,7 @@ import CardEstampa from "../components/CardEstampa";
 import Footer from "../components/Footer";
 import NavBar from "../components/Nav";
 import { produtos } from "../domains/produtos/produtos.data";
+import ListaProdutosEstampados from "../components/ListProdutos";
 
 const ProdutoPage = () => {
   const { id } = useParams();
@@ -17,6 +18,7 @@ const ProdutoPage = () => {
     <>
       <NavBar />
       <CardEstampa idEstampa={produto.estampaId} />
+      <ListaProdutosEstampados />
       <Footer />
     </>
   );

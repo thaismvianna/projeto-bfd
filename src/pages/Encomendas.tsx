@@ -9,6 +9,7 @@ const EncomendasPage = () => {
     <>
       <NavBar />
       <Formulario />
+      
       <Footer />
     </>
   );
